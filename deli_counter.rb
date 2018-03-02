@@ -5,8 +5,10 @@ def line(array)
   puts "The line is currently empty."
   else
     n = 0
-    array.unshift("")
-    y = array.join(" #{(n+1)}. ")
+    array.each do |number|
+      n += 1
+      "#{n}. #{number}"
+    end
     puts "The line is currently:#{y}"
   end
 end
