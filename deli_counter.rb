@@ -7,6 +7,7 @@ def line(array)
     array.each_with_index do |name, index|
       puts "value #{name} has index #{index+1}"
     end
+  end
 end
 
 def take_a_number()
