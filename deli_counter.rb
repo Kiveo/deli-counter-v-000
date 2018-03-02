@@ -4,11 +4,7 @@ def line(array)
   if array == []
   puts "The line is currently empty."
   else
-    n = 1
-    puts "The line is currently: #{array.each |name|
-    puts n + ". " + name
-    n+= 1
-    } }"
+    array
   end
 end
 
