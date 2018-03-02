@@ -7,7 +7,7 @@ def line(array)
     n = 1
     array.unshift("1.")
     # array.join("#{n+1}.")
-    array
+    puts array
   end
 end
 
