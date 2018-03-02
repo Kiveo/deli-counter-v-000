@@ -4,7 +4,7 @@ def line(array)
   if array == []
   puts "The line is currently empty."
   else
-    n = 1
+    n = 0
     array.unshift("#{n+1}.")
     y = array.join(" NUM. ")
     puts y
