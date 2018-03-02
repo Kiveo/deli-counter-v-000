@@ -6,8 +6,8 @@ def line(array)
   else
     n = 1
     array.unshift("1.")
-    array.join("NUM.")
-    puts array
+    y = array.join("NUM.")
+    puts y
   end
 end
 
