@@ -7,7 +7,7 @@ def line(array)
     n = 0
     array.unshift("#{n+1}.")
     y = array.join("#{n+1}.")
-    puts y
+    puts "The line is currently: #{y}"
   end
 end
 
