@@ -5,7 +5,7 @@ def line(array)
   puts "The line is currently empty."
   else
     n = 0
-    array.each do |number|
+    y = array.each do |number|
       n += 1
       "#{n}. #{number}"
     end
