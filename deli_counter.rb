@@ -6,7 +6,7 @@ def line(array)
   else
     n = 1
     array.unshift("1.")
-    y = array.join("NUM.")
+    y = array.join("NUM. ")
     puts y
   end
 end
