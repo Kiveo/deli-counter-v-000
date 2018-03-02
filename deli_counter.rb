@@ -5,9 +5,9 @@ def line(array)
   puts "The line is currently empty."
   else
     n = 0
-    array.unshift("#{n+1}. ")
+    array.unshift(" ")
     y = array.join("#{n+1}. ")
-    puts "The line is currently: #{y}"
+    puts "The line is currently:#{y}"
   end
 end
 
