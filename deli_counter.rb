@@ -4,8 +4,10 @@ def line(array)
   if array == []
   puts "The line is currently empty."
   else
+    n= 0
     y = array.length.times do |output|
-      print output
+      print "#{n}. #{output}"
+      n+=1
     end
     puts y
   end
