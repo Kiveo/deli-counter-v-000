@@ -4,7 +4,11 @@ def line(array)
   if array == []
   puts "The line is currently empty."
   else
-    puts "The line is currently: #{array.each_with_index{|name, number| puts (number+1).to_string + ". " + name} }"
+    n = 1
+    puts "The line is currently: #{array.each |name| 
+    puts (n1).to_string + ". " + name 
+    n+= 1
+    } }"
   end
 end
 
