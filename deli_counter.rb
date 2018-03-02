@@ -6,8 +6,8 @@ def line(array)
   else
     n= 0
     y = array.length.times do |output|
-      print "#{n}. #{output}"
       n+=1
+      print "#{n}. #{output}"
     end
     puts y
   end
