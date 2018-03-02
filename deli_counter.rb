@@ -4,7 +4,9 @@ def line(array)
   if array == []
   puts "The line is currently empty."
   else
-    y = array.inspect
+    y = array.length.times do |output|
+      print output
+    end
     puts y
   end
 end
